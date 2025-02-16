@@ -10,8 +10,7 @@
     <div id="header">
         <h1>Welcome to the Library</h1>
         <hr>
-        <h3>This is a collection of books</h3>
-        <h6>You can add a book by clicking "Add Book" or remove one by clicking "Delete"</h6>
+        <h6>You can add a book by clicking "+ New Book" or remove one by clicking "Delete"</h6>
     </div>
     <div id="table">
         <div id="table_top">
@@ -33,12 +32,30 @@
         <p id="title">this is the lord of the rings</p>
         <p id="author">john brown beards</p>
         <p id="pages">1121</p>
-        <button id="status">unread</button>
+        <button id="status">Unread</button>
         <p id="rating">5</p>
         <button id="delete">X</button>
     </div>
-    <dialog>
-        <div class=""
+    <dialog id="dialog">
+        <form id="form" action="">
+            <div class="dialog-box">
+                <div id="top-part">
+                    <h1 id="add-book">Add Book</h1>
+                    <button id="close" type="button">X</button>
+                </div>
+                <div id="body-part">
+                    <span>Title</span>
+                    <input type="text" required>
+                    <span>Author</span>
+                    <input type="text" required>
+                    <span>Pages</span>
+                    <input type="number" max="100000" required>
+                    <span>Rating</span>
+                    <input type="number" max="5" min="1" required>
+                </div>
+            </div>
+            <button id="add" type="submit">Add Book</button>
+        </form>
     </dialog>
     <script src="script.js"></script>
 </body>

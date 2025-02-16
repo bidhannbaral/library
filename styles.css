@@ -143,6 +143,11 @@ h4 {
     margin-left: -10%;
     margin-right: 12%;
     font-size: 1vw;
+    background-color: rgb(207, 207, 207);
+}
+
+#status:hover {
+    opacity: 70%;
 }
 
 #rating {
@@ -160,4 +165,78 @@ h4 {
     width: 2vw;
     height: 2vw;
     font-size: 1vw;
+    font-weight: bolder;
+    background-color: red;
 }
+
+#delete:hover {
+    background-color: rgb(255, 127, 127);
+}
+
+#add_book:hover {
+    background-color: rgb(0, 154, 206);
+}
+
+dialog {
+    position: absolute;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 225, 255);
+}
+
+.dialog-box {
+    z-index: 100000000000;
+    margin-top: -0%;
+    height: 30vh;
+    width: 11vw;
+}
+
+#close {
+    margin-left: auto;
+    width: 2vw;
+    height: 1.5vw;
+    font-size: 1vw;
+    font-weight: bolder;
+    background-color: red;
+}
+
+#close:hover {
+    background-color: rgb(255, 127, 127);
+}
+
+#top-part {
+    display: flex;
+}
+
+#add-book {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    font-size: 1vw;
+}
+
+#body-part {
+    margin-top: 7%;
+}
+
+input {
+    height: 1vw;
+    width: 9vw;
+}
+
+#add {
+    height: 2vw;
+    width: 9vw;
+    font-size: 1vw;
+    background-color: rgb(0, 255, 0);
+}
+
+#add:hover {
+    background-color: rgb(180, 255, 180);
+}
+
