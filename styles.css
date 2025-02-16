@@ -7,13 +7,18 @@ hr {
     color: white;
 }
 
+h4 {
+    font-size: 0.8vw;
+    font-family:'Times New Roman', Times, serif;
+}
+
 #table-header {
     background-color: white;
 }
 
 #header {
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1vw;
     text-transform: uppercase;
     font-family: verdana;
     font-weight: 700;
@@ -26,4 +31,133 @@ hr {
     align-self: center;
     color: black;
     background-color: white;
+    width: 70vw;
+    border-radius: 10px;
+    border: 4px solid rgb(0, 225, 255);
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    column-gap: 15%;
+}
+
+#table_top {
+    display: flex;
+    justify-content: center;
+}
+
+#add_book {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 10px;
+    height: 5vh;
+    width: 7vw;
+    font-size: 1vw;
+    cursor: pointer;
+    background-color: blue;
+}
+
+#table_label {
+    font-size: 1.5vw;
+    margin-top: auto;
+    padding: 20px;
+}
+
+#book_button {
+    margin-left: auto;
+    padding: 20px;
+}
+
+.books {
+    background-color: white;
+    display: flex;
+    column-gap: 5%;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+    margin-top: 1.7%;
+    width: 70vw;
+    border-radius: 10px;
+    border: 4px solid rgb(0, 225, 255);
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#book-title {
+    margin-right: 5%;
+    font-size: 1.1vw;
+}
+
+#book-author {
+    margin-right: -6%;
+    font-size: 1.1vw;
+}
+
+#book-pages {
+    margin-right: -8%;
+    font-size: 1.1vw;
+}
+
+#book-status {
+    margin-right: -8%;
+    font-size: 1.1vw;
+}
+
+#book-rating {
+    font-size: 1.1vw;
+}
+
+#book-delete {
+    font-size: 1.1vw;
+}
+
+#title {
+    margin: auto;
+    margin-left: -5%;
+    margin-right: 1%;
+    width: 25%;
+    font-size: 1vw;
+}   
+
+#author {
+    margin: auto;
+    margin-left: -2%;
+    margin-right: 7%;
+    font-size: 1vw;
+    width: 10%;
+}
+
+#pages {
+    margin: auto;
+    margin-right: 12%;
+    margin-left: -6%;
+    font-size: 1vw;
+    width: 4%;
+}
+
+#status {
+    margin: auto;
+    width: 5vw;
+    height: 5vh;
+    margin-left: -10%;
+    margin-right: 12%;
+    font-size: 1vw;
+}
+
+#rating {
+    margin: auto;
+    margin-right: 15%;
+    margin-left: -10%;
+    font-size: 1vw;
+    width: 1vw;
+}
+
+#delete {
+    margin: auto;
+    margin-left: -3%;
+    margin-right: -1%;
+    width: 2vw;
+    height: 2vw;
+    font-size: 1vw;
 }
